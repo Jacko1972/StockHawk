@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="stock_recycler_view_margin">8dp</dimen>
+    <dimen name="stock_hawk_logo_margin">32dp</dimen>
+</resources>

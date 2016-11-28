@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name" translatable="false">Stock Hawk</string>
+
+    <string name="action_settings" translatable="true">Settings</string>
+    <string name="action_change_units" translatable="true">Change Units</string>
+    <string name="symbol_search" translatable="true">Symbol Search</string>
+    <string name="content_test" translatable="true">Search for a Stock Symbol</string>
+    <string name="input_hint" translatable="false">FB</string>
+    <string name="input_pre_fill" translatable="false"/>
+    <string name="network_toast" translatable="true">This app requires an internet connection!</string>
+    <string name="no_stock_information_available" translatable="true">No Stock Information Available…</string>
+    <string name="add_a_new_stock_symbol" translatable="true">Add A New Stock Symbol</string>
+    <string name="force_list_refresh" translatable="true">Force List Refresh</string>
+    <string name="sync_account_type" translatable="false">stockhawk.jacko1972.com</string>
+    <string name="content_authority" translatable="false">com.jacko1972.stockhawk</string>
+    <string name="pref_stock_hawk_status" translatable="false">stock_hawk_status</string>
+    <string name="prefs_days_history" translatable="false">prefs_days_history</string>
+
+    <string-array name="pref_days_titles">
+        <item>30 Days</item>
+        <item>45 Days</item>
+        <item>60 Days</item>
+        <item>90 Days</item>
+    </string-array>
+    <string-array name="pref_days_values">
+        <item>30</item>
+        <item>45</item>
+        <item>60</item>
+        <item>90</item>
+    </string-array>
+
+    <!-- Empty Stock Hawk Database -->
+    <string name="empty_stock_hawk_list" translatable="true">No Stock Information Available!</string>
+    <string name="empty_stock_hawk_list_no_network" translatable="true">No stock information available! \n\nThe network is not available to fetch stock data.</string>
+    <string name="empty_stock_hawk_list_server_down" translatable="true">No stock information available! \n\nThe server is not available or returning no data.</string>
+    <string name="empty_stock_hawk_list_server_error" translatable="true">No stock information available! \n\nThe server is not returning valid data. Please check for an updated version of Stock Hawk.</string>
+    <string name="empty_stock_hawk_list_no_data" translatable="true">No Stock Information available. \n\nThere are no Stock Symbols stored, click the Plus icon to add a Stock Symbol or Force List Refresh to load default Symbols.</string>
+    <string name="sync_adapter_is_working" translatable="true">No Stock Information available. \n\nStock Hawk is currently connecting to the Data Source, please wait…</string>
+    <string name="empty_widget_stock_hawk_list" translatable="true">No Stock Information!</string>
+
+
+    <string name="fragment_stock_detail_tag" translatable="false">FragmentStockDetailTag</string>
+    <string name="detail_widget" translatable="true">Detail Widget</string>
+    <string name="trending_icon" translatable="true">Trending Icon</string>
+    <string name="trending_down" translatable="true">Trending Down</string>
+    <string name="trending_up" translatable="true">Trending Up</string>
+    <string name="no_change" translatable="true">No Change</string>
+    <string name="stock" translatable="true">Stock </string>
+    <string name="bid_price" translatable="true">Bid Price  </string>
+    <string name="change" translatable="true">Change </string>
+
+
+</resources>

@@ -1,0 +1,10 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:defaultValue="30"
+        android:entries="@array/pref_days_titles"
+        android:entryValues="@array/pref_days_values"
+        android:key="@string/prefs_days_history"
+        android:title="Choose Days of History to Download"/>
+
+</PreferenceScreen>

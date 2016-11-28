@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MyStocksActivity">
+    <item
+        android:id="@+id/add_new_symbol"
+        android:orderInCategory="97"
+        android:icon="@drawable/ic_action_add"
+        android:title="@string/add_a_new_stock_symbol"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/refresh_list"
+        android:orderInCategory="98"
+        android:icon="@drawable/ic_refresh"
+        android:title="@string/force_list_refresh"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_change_units"
+        android:icon="@drawable/ic_attach_money_white_24dp"
+        android:orderInCategory="99"
+        android:title="@string/action_change_units"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never"/>
+</menu>
