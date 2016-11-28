@@ -9,4 +9,9 @@ A starter App was provided where we were tasked with improving it for the users,
 
 ## Screens
 
+![screen](../master/app/screenshots/phone1.jpg)
+![screen](../master/app/screenshots/phone2.jpg)
 
+![screen](../master/app/screenshots/tablet1.jpg)
+
+## Libraries
