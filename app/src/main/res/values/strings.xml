@@ -49,6 +49,11 @@
     <string name="stock" translatable="true">Stock </string>
     <string name="bid_price" translatable="true">Bid Price  </string>
     <string name="change" translatable="true">Change </string>
+    <string name="this_stock_is_already_saved" translatable="true">This stock is already saved!</string>
+    <string name="adding_stock_symbol_please_wait" translatable="true">Adding Stock Symbol, please wait!</string>
+    <string name="could_not_find_symbol" translatable="true">Could not find Symbol \'</string>
+    <string name="please_try_again" translatable="true">\', please try again!</string>
+    <string name="query_ascending" translatable="false">" ASC"</string>
 
 
 </resources>

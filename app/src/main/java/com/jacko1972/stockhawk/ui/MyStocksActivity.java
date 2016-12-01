@@ -106,7 +106,7 @@ public class MyStocksActivity extends AppCompatActivity implements MyStocksFragm
                                         new String[]{QuoteColumns.SYMBOL}, QuoteColumns.SYMBOL + "= ?",
                                         new String[]{input.toString()}, null);
                                 if (c != null && c.getCount() != 0) {
-                                    Toast toast = Toast.makeText(MyStocksActivity.this, "This stock is already saved!", Toast.LENGTH_LONG);
+                                    Toast toast = Toast.makeText(MyStocksActivity.this, R.string.this_stock_is_already_saved, Toast.LENGTH_LONG);
                                     toast.setGravity(Gravity.CENTER, Gravity.CENTER, 0);
                                     toast.show();
                                 } else {
@@ -136,7 +136,7 @@ public class MyStocksActivity extends AppCompatActivity implements MyStocksFragm
 
     private void addSymbol(String s) {
         Utils.addStockSymbol(this, s);
-        Toast toast = Toast.makeText(MyStocksActivity.this, "Adding Stock Symbol, please wait!", Toast.LENGTH_LONG);
+        Toast toast = Toast.makeText(MyStocksActivity.this, R.string.adding_stock_symbol_please_wait, Toast.LENGTH_LONG);
         toast.setGravity(Gravity.CENTER, Gravity.CENTER, 0);
         toast.show();
     }

@@ -50,7 +50,7 @@ class DetailWidgetRemoteViewFactory implements RemoteViewsService.RemoteViewsFac
                         QuoteColumns.PERCENT_CHANGE, QuoteColumns.CHANGE},
                 null,
                 null,
-                QuoteColumns._ID + " ASC");
+                QuoteColumns._ID + mContext.getString(R.string.query_ascending));
         Binder.restoreCallingIdentity(identityToken);
     }
 

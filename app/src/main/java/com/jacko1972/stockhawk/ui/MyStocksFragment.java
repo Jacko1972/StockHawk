@@ -104,7 +104,7 @@ public class MyStocksFragment extends Fragment implements SharedPreferences.OnSh
                         QuoteColumns.PERCENT_CHANGE, QuoteColumns.CHANGE},
                 null,
                 null,
-                QuoteColumns._ID + " ASC");
+                QuoteColumns._ID + mActivity.getString(R.string.query_ascending));
     }
 
     @Override

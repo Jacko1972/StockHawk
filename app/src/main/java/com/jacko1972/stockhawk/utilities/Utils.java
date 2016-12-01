@@ -159,7 +159,7 @@ public class Utils {
                                           ArrayList<ContentProviderOperation> contentProviderOperations;
                                           contentProviderOperations = Utils.quoteStockJsonToContentVals(query.getResults());
                                           if (contentProviderOperations.size() == 0) {
-                                              Toast.makeText(context1, "Could not find Symbol '" + s + "', please try again!", Toast.LENGTH_LONG).show();
+                                              Toast.makeText(context1, context1.getString(R.string.could_not_find_symbol) + s + context1.getString(R.string.please_try_again), Toast.LENGTH_LONG).show();
                                           } else {
                                               try {
                                                   context1.getContentResolver().applyBatch(StockProvider.AUTHORITY, contentProviderOperations);
